@@ -1,20 +1,20 @@
 Asal Sayı
 ----------------------------------------------------------------------------------------------------
-- Program WinForm şeklinde masaüstü uygulaması olmalıdır.									+
+- Program WinForm şeklinde masaüstü uygulaması olmalıdır. (+)
 
-- Program "Close/Kapat/X"e basıldığında herhangi bir veri kaydetmeden son bulur.					+
+- Program "Close/Kapat/X"e basıldığında herhangi bir veri kaydetmeden son bulur. (+)
 
-- Kullanıcı "Bir sayı giriniz:" input alanına bir sayı girebilmelidir.							+
+- Kullanıcı "Bir sayı giriniz:" input alanına bir sayı girebilmelidir. (+)
 
 - Program, kullanıcı "Asal sayı mı?" butonuna bastığında girilen input değerinin asal olup olmadığını
-bulur ve kullanıcıyı bilgilendirir.													+
+bulur ve kullanıcıyı bilgilendirir. (+)
 
-- Program girilen inputun bir üstündeki ve bir altındaki asal sayıları bulur ve kullanıcıya gösterir.		+
+- Program girilen inputun bir üstündeki ve bir altındaki asal sayıları bulur ve kullanıcıya gösterir. (+)
 
 - Kullanıcı tam sayı dışında bir input girdiğinde "Lütfen bir tamsayı değeri giriniz!" mesajlı bir
-hata mesajı verilir.															+
+hata mesajı verilir. (+)
 
-- Butona her basıldığında input alanı temizlenir.										+
+- Butona her basıldığında input alanı temizlenir. (+)
 
-- Önceki girilen değerler geçmişte gösterilir.											+
+- Önceki girilen değerler geçmişte gösterilir. (+)
 ----------------------------------------------------------------------------------------------------
