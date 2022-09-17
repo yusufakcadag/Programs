@@ -48,7 +48,17 @@
 
             while (true)
             {
-                if (IsPN(_input -= 2))
+                if (_input == 2)
+                {
+                    result[0] = -1;
+                    break;
+                }
+                else if (_input == 3)
+                {
+                    result[0] = 2;
+                    break;
+                }
+                else if (IsPN(_input -= 2))
                 {
                     result[0] = _input;
                     break;
@@ -59,12 +69,18 @@
 
             while (true)
             {
-                if (IsPN(input += 2))
+                if (_input == 2)
                 {
-                    result[1] = input;
+                    result[1] = 3;
+                    break;
+                }
+                if (IsPN(_input += 2))
+                {
+                    result[1] = _input;
                     break;
                 }
             }
+
             return result;
         }
 
@@ -80,8 +96,17 @@
                     lblPN.Text = "Asal sayı!";
                     lblPN.ForeColor = Color.Green;
                     lbxHistory.Items.Add(input + ": Asal");
+
                     int[] upperPNAndBottomPN = ReturnUpperPNAndBottomPN(input);
-                    lblBottomPN.Text = "Alt Asal Sayı: " + upperPNAndBottomPN[0];
+                    if (upperPNAndBottomPN[0] == -1)
+                    {
+                        lblBottomPN.Text = "Alt Asal Sayı";
+                    }
+                    else
+                    {
+                        lblBottomPN.Text = "Alt Asal Sayı: " + upperPNAndBottomPN[0];
+                    }
+
                     lblUpperPN.Text = "Üst Asal Sayı: " + upperPNAndBottomPN[1];
                     tbxPN.Clear();
                 }
