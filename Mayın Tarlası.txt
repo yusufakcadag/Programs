@@ -1,0 +1,9 @@
+Mayın Tarlası
+----------------------------------------------------------------------------------------------------
+- Program WinForm şeklinde masaüstü uygulaması olmalıdır. ()
+
+- Program "Close/Kapat/X"e basıldığında herhangi bir veri kaydetmeden son bulur. ()
+
+- Oyuna başlama ekranında kullanıcıdan bir zorluk seviyesi seçmesi istenir. ()
+
+- Zorluk seviyeleri kolay(25%), orta(50%) ve zor(75%) şeklinde olmalıdır. ()

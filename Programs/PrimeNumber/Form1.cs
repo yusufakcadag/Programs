@@ -48,7 +48,12 @@
 
             while (true)
             {
-                if (_input == 2)
+                if (_input < 2)
+                {
+                    result[0] = -1;
+                    break;
+                }
+                else if (_input == 2)
                 {
                     result[0] = -1;
                     break;
@@ -58,7 +63,7 @@
                     result[0] = 2;
                     break;
                 }
-                else if (IsPN(_input -= 2))
+                else if (IsPN(_input -= 1))
                 {
                     result[0] = _input;
                     break;
@@ -69,12 +74,17 @@
 
             while (true)
             {
+                if (_input < 2)
+                {
+                    result[1] = 2;
+                    break;
+                }
                 if (_input == 2)
                 {
                     result[1] = 3;
                     break;
                 }
-                if (IsPN(_input += 2))
+                if (IsPN(_input += 1))
                 {
                     result[1] = _input;
                     break;
@@ -108,6 +118,7 @@
                     }
 
                     lblUpperPN.Text = "Üst Asal Sayı: " + upperPNAndBottomPN[1];
+
                     tbxPN.Clear();
                 }
                 else
@@ -116,8 +127,19 @@
                     lblPN.Text = "Asal sayı değil!";
                     lblPN.ForeColor = Color.Red;
                     lbxHistory.Items.Add(input.ToString() + ": Asal değil");
-                    lblBottomPN.Text = "Alt Asal Sayı";
-                    lblUpperPN.Text = "Üst Asal Sayı";
+
+                    int[] upperPNAndBottomPN = ReturnUpperPNAndBottomPN(input);
+                    if (upperPNAndBottomPN[0] == -1)
+                    {
+                        lblBottomPN.Text = "Alt Asal Sayı";
+                    }
+                    else
+                    {
+                        lblBottomPN.Text = "Alt Asal Sayı: " + upperPNAndBottomPN[0];
+                    }
+
+                    lblUpperPN.Text = "Üst Asal Sayı: " + upperPNAndBottomPN[1];
+
                     tbxPN.Clear();
                 }
                 

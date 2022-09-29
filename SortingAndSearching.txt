@@ -1,0 +1,37 @@
+Sorting And Searching
+----------------------------------------------------------------------------------------------------
+- Program WinForm şeklinde masaüstü uygulaması olmalıdır. ()
+
+- Program "Close/Kapat/X"e basıldığında herhangi bir veri kaydetmeden son bulur. ()
+
+- Kullanıcı Sayısal ya da Karaktersel veri girmeyi ya da sistem tarafından üretilen rastgele Sayısal
+ya da Karaktersel verilerle çalışmayı seçer. ()
+
+- Veri girerek çalışmayı seçtiyse en az 2 input girmek şartıyla istediği kadar Sayısal veriyi
+"2, 8, 7, ..., 0" ya da Karaktersel veriyi "a, g, E, ..., l" formatında girer. ()
+
+- Gireceği Sayısal veriler [-10000, 10000] aralığındaki tam sayılar olabilir ve gireceği Karaktersel
+veriler "a, b, c, ..., A, ..., V, Y, Z" olarak Türkçe karakterler olabilir. ()
+
+- Sistem tarafından üretilen rastgele verilerle çalışmayı seçtiyse Sayısal ya da Karaktersel rastgele
+veri üretmeyi seçer ve üretilecek veri sayısını en az 2 en fazla 100,000 veri olmak şartıyla girer.
+
+- Rastgele Sayısal veriler [-10000, 10000] aralığında tam sayılar olabilir ve rastgele Karaktersel
+veriler "a, b, c, ..., A, ..., V, Y, Z" olarak Türkçe karakterler olabilir. ()
+
+- Kullanıcı verileri girdikten ya da rastgele oluşturduktan sonra verileri sırlamayı ya da veriler
+içerisinden eleman aramayı seçer. ()
+
+- Verileri sıralamayı seçtiyse verileri hangi algoritma ile de sıralayacağını seçer (Insertion, Merge). ()
+
+- Verileri sırala butonuna bastığında sıralı veriler ve verilerin sıralanması için geçen süre
+kullanıcıya gösterilir. ()
+
+- Veriler içerisinden eleman aramayı seçtiyse arayacağı elemanı verilerin türüne göre girer. ()
+
+- Veriler içerisinden eleman aramayı seçtiyse ve öncesinde sıralama işlemi yapılmadıysa "lineer search"
+ile arama yapılır ve verinin bulunması için geçen süre kullanıcıya gösterilir. ()
+
+- Veriler içerisinden eleman aramayı seçtiyse ve öncesinde sıralama işlemi yapıldıysa "binary search"
+ile arama yapılır ve verinin bulunması için geçen süre kullanıcıya gösterilir. ()
+----------------------------------------------------------------------------------------------------
