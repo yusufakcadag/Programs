@@ -42,11 +42,11 @@
             this.lblUpperPN.AutoSize = true;
             this.lblUpperPN.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblUpperPN.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblUpperPN.Location = new System.Drawing.Point(334, 218);
+            this.lblUpperPN.Location = new System.Drawing.Point(257, 229);
             this.lblUpperPN.Name = "lblUpperPN";
-            this.lblUpperPN.Size = new System.Drawing.Size(221, 40);
+            this.lblUpperPN.Size = new System.Drawing.Size(231, 40);
             this.lblUpperPN.TabIndex = 0;
-            this.lblUpperPN.Text = "Üst Asal Sayı";
+            this.lblUpperPN.Text = "Üst Asal Sayı:";
             this.lblUpperPN.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblPN
@@ -54,7 +54,7 @@
             this.lblPN.AutoSize = true;
             this.lblPN.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblPN.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblPN.Location = new System.Drawing.Point(334, 258);
+            this.lblPN.Location = new System.Drawing.Point(257, 269);
             this.lblPN.Name = "lblPN";
             this.lblPN.Size = new System.Drawing.Size(245, 40);
             this.lblPN.TabIndex = 1;
@@ -66,11 +66,11 @@
             this.lblBottomPN.AutoSize = true;
             this.lblBottomPN.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblBottomPN.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lblBottomPN.Location = new System.Drawing.Point(334, 298);
+            this.lblBottomPN.Location = new System.Drawing.Point(257, 309);
             this.lblBottomPN.Name = "lblBottomPN";
-            this.lblBottomPN.Size = new System.Drawing.Size(208, 40);
+            this.lblBottomPN.Size = new System.Drawing.Size(218, 40);
             this.lblBottomPN.TabIndex = 2;
-            this.lblBottomPN.Text = "Alt Asal Sayı";
+            this.lblBottomPN.Text = "Alt Asal Sayı:";
             this.lblBottomPN.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tbxPN
@@ -78,7 +78,7 @@
             this.tbxPN.BackColor = System.Drawing.Color.White;
             this.tbxPN.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tbxPN.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.tbxPN.Location = new System.Drawing.Point(341, 341);
+            this.tbxPN.Location = new System.Drawing.Point(264, 352);
             this.tbxPN.MaxLength = 9;
             this.tbxPN.Name = "tbxPN";
             this.tbxPN.Size = new System.Drawing.Size(214, 47);
@@ -89,7 +89,7 @@
             this.btnIsPN.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnIsPN.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnIsPN.ForeColor = System.Drawing.Color.White;
-            this.btnIsPN.Location = new System.Drawing.Point(387, 394);
+            this.btnIsPN.Location = new System.Drawing.Point(310, 405);
             this.btnIsPN.Name = "btnIsPN";
             this.btnIsPN.Size = new System.Drawing.Size(123, 51);
             this.btnIsPN.TabIndex = 4;
@@ -113,7 +113,7 @@
             this.lblNumber.AutoSize = true;
             this.lblNumber.Font = new System.Drawing.Font("Arial", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblNumber.ForeColor = System.Drawing.Color.Gray;
-            this.lblNumber.Location = new System.Drawing.Point(334, 165);
+            this.lblNumber.Location = new System.Drawing.Point(257, 176);
             this.lblNumber.Name = "lblNumber";
             this.lblNumber.Size = new System.Drawing.Size(139, 40);
             this.lblNumber.TabIndex = 6;

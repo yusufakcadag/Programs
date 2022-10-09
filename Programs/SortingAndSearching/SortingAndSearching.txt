@@ -1,11 +1,11 @@
 Sorting And Searching
 ----------------------------------------------------------------------------------------------------
-- Program WinForm şeklinde masaüstü uygulaması olmalıdır. ()
+- Program WinForm şeklinde masaüstü uygulaması olmalıdır. (+)
 
-- Program "Close/Kapat/X"e basıldığında herhangi bir veri kaydetmeden son bulur. ()
+- Program "Close/Kapat/X"e basıldığında herhangi bir veri kaydetmeden son bulur. (+)
 
 - Kullanıcı Sayısal ya da Karaktersel veri girmeyi ya da sistem tarafından üretilen rastgele Sayısal
-ya da Karaktersel verilerle çalışmayı seçer. ()
+ya da Karaktersel verilerle çalışmayı seçer. (+)
 
 - Veri girerek çalışmayı seçtiyse en az 2 input girmek şartıyla istediği kadar Sayısal veriyi
 "2, 8, 7, ..., 0" ya da Karaktersel veriyi "a, g, E, ..., l" formatında girer. ()

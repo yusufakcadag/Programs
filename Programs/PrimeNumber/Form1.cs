@@ -149,6 +149,8 @@
                 MessageBox.Show("Hatalı değer girdiniz. Lütfen tam sayı giriniz.");
                 tbxPN.Clear();
                 lblNumber.Text = "";
+                lblPN.Text = "Asal/Asal Değil";
+                lblPN.ForeColor = Color.RoyalBlue;
                 lblBottomPN.Text = "Alt Asal Sayı";
                 lblUpperPN.Text = "Üst Asal Sayı";
             }
