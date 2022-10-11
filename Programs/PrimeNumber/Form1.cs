@@ -110,7 +110,7 @@
                     int[] upperPNAndBottomPN = ReturnUpperPNAndBottomPN(input);
                     if (upperPNAndBottomPN[0] == -1)
                     {
-                        lblBottomPN.Text = "Alt Asal Sayı";
+                        lblBottomPN.Text = "Alt Asal Sayı: -";
                     }
                     else
                     {
@@ -131,7 +131,7 @@
                     int[] upperPNAndBottomPN = ReturnUpperPNAndBottomPN(input);
                     if (upperPNAndBottomPN[0] == -1)
                     {
-                        lblBottomPN.Text = "Alt Asal Sayı";
+                        lblBottomPN.Text = "Alt Asal Sayı: -";
                     }
                     else
                     {
@@ -151,8 +151,8 @@
                 lblNumber.Text = "";
                 lblPN.Text = "Asal/Asal Değil";
                 lblPN.ForeColor = Color.RoyalBlue;
-                lblBottomPN.Text = "Alt Asal Sayı";
-                lblUpperPN.Text = "Üst Asal Sayı";
+                lblBottomPN.Text = "Alt Asal Sayı: -";
+                lblUpperPN.Text = "Üst Asal Sayı: -";
             }
         }
     }

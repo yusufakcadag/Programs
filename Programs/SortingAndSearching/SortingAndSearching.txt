@@ -13,8 +13,8 @@ ya da Karaktersel verilerle çalışmayı seçer. (+)
 - Gireceği Sayısal veriler [-10000, 10000] aralığındaki tam sayılar olabilir ve gireceği Karaktersel
 veriler "a, b, c, ..., A, ..., V, Y, Z" olarak Türkçe karakterler olabilir. ()
 
-- Sistem tarafından üretilen rastgele verilerle çalışmayı seçtiyse Sayısal ya da Karaktersel rastgele
-veri üretmeyi seçer ve üretilecek veri sayısını en az 2 en fazla 100,000 veri olmak şartıyla girer.
+- Sistem tarafından üretilen rastgele verilerle çalışmayı seçtiyse, üretilecek veri sayısını en az 2
+en fazla 100,000 veri olmak şartıyla girer. ()
 
 - Rastgele Sayısal veriler [-10000, 10000] aralığında tam sayılar olabilir ve rastgele Karaktersel
 veriler "a, b, c, ..., A, ..., V, Y, Z" olarak Türkçe karakterler olabilir. ()

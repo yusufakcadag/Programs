@@ -6,5 +6,10 @@ namespace SortingAndSearching
         {
             InitializeComponent();
         }
+
+        private void tbrAutoDataCount_Scroll(object sender, EventArgs e)
+        {
+            lblAutoDataCount.Text = tbrAutoDataCount.Value.ToString();
+        }
     }
 }
