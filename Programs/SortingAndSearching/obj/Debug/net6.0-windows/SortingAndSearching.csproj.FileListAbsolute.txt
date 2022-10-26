@@ -4,7 +4,6 @@ C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\bin\Debug
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\bin\Debug\net6.0-windows\SortingAndSearching.dll
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\bin\Debug\net6.0-windows\SortingAndSearching.pdb
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\SortingAndSearching.csproj.AssemblyReference.cache
-C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\SortingAndSearching.Form1.resources
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\SortingAndSearching.csproj.GenerateResource.cache
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\SortingAndSearching.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\SortingAndSearching.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\SortingAndSearching.pdb
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\SortingAndSearching.genruntimeconfig.cache
 C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\ref\SortingAndSearching.dll
+C:\Users\akcad\Desktop\GitHub\Uygulamalar\Programs\SortingAndSearching\obj\Debug\net6.0-windows\SortingAndSearching.Setting.resources

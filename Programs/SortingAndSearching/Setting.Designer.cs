@@ -1,6 +1,6 @@
 ﻿namespace SortingAndSearching
 {
-    partial class Form1
+    partial class Setting
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.gbxDataEntrySettings = new System.Windows.Forms.GroupBox();
+            this.btnConfirmDataEntrySettings = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbtnCharacteristic = new System.Windows.Forms.RadioButton();
             this.rbtnDigital = new System.Windows.Forms.RadioButton();
@@ -40,9 +41,10 @@
             this.gbxDataInput = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnInput = new System.Windows.Forms.Button();
+            this.btnEnterData = new System.Windows.Forms.Button();
             this.tbxInput = new System.Windows.Forms.TextBox();
             this.gbxAutoDataSettings = new System.Windows.Forms.GroupBox();
+            this.btnCreateData = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.lblAutoDataCount = new System.Windows.Forms.Label();
             this.tbrAutoDataCount = new System.Windows.Forms.TrackBar();
@@ -68,6 +70,7 @@
             // gbxDataEntrySettings
             // 
             this.gbxDataEntrySettings.BackColor = System.Drawing.Color.DarkGray;
+            this.gbxDataEntrySettings.Controls.Add(this.btnConfirmDataEntrySettings);
             this.gbxDataEntrySettings.Controls.Add(this.groupBox2);
             this.gbxDataEntrySettings.Controls.Add(this.groupBox1);
             this.gbxDataEntrySettings.Controls.Add(this.label2);
@@ -78,6 +81,19 @@
             this.gbxDataEntrySettings.TabIndex = 3;
             this.gbxDataEntrySettings.TabStop = false;
             this.gbxDataEntrySettings.Text = "Veri Giriş Ayarları";
+            // 
+            // btnConfirmDataEntrySettings
+            // 
+            this.btnConfirmDataEntrySettings.BackColor = System.Drawing.Color.Tomato;
+            this.btnConfirmDataEntrySettings.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnConfirmDataEntrySettings.Location = new System.Drawing.Point(651, 286);
+            this.btnConfirmDataEntrySettings.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConfirmDataEntrySettings.Name = "btnConfirmDataEntrySettings";
+            this.btnConfirmDataEntrySettings.Size = new System.Drawing.Size(104, 47);
+            this.btnConfirmDataEntrySettings.TabIndex = 8;
+            this.btnConfirmDataEntrySettings.Text = "Onayla";
+            this.btnConfirmDataEntrySettings.UseVisualStyleBackColor = false;
+            this.btnConfirmDataEntrySettings.Click += new System.EventHandler(this.btnConfirmDataEntrySettings_Click);
             // 
             // groupBox2
             // 
@@ -171,8 +187,9 @@
             this.gbxDataInput.BackColor = System.Drawing.Color.DarkGray;
             this.gbxDataInput.Controls.Add(this.label4);
             this.gbxDataInput.Controls.Add(this.label3);
-            this.gbxDataInput.Controls.Add(this.btnInput);
+            this.gbxDataInput.Controls.Add(this.btnEnterData);
             this.gbxDataInput.Controls.Add(this.tbxInput);
+            this.gbxDataInput.Enabled = false;
             this.gbxDataInput.Location = new System.Drawing.Point(12, 371);
             this.gbxDataInput.Margin = new System.Windows.Forms.Padding(2);
             this.gbxDataInput.Name = "gbxDataInput";
@@ -205,17 +222,18 @@
             this.label3.Text = "Sayısal veriyi \"2, 8, 7, ..., 0\" formatında giriniz.\r\nKaraktersel veriyi \"a, g, E" +
     ", ..., l\" formatında giriniz.";
             // 
-            // btnInput
+            // btnEnterData
             // 
-            this.btnInput.BackColor = System.Drawing.Color.Tomato;
-            this.btnInput.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnInput.Location = new System.Drawing.Point(27, 329);
-            this.btnInput.Margin = new System.Windows.Forms.Padding(2);
-            this.btnInput.Name = "btnInput";
-            this.btnInput.Size = new System.Drawing.Size(146, 47);
-            this.btnInput.TabIndex = 1;
-            this.btnInput.Text = "Veriyi gir";
-            this.btnInput.UseVisualStyleBackColor = false;
+            this.btnEnterData.BackColor = System.Drawing.Color.Tomato;
+            this.btnEnterData.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEnterData.Location = new System.Drawing.Point(27, 329);
+            this.btnEnterData.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEnterData.Name = "btnEnterData";
+            this.btnEnterData.Size = new System.Drawing.Size(146, 47);
+            this.btnEnterData.TabIndex = 1;
+            this.btnEnterData.Text = "Veriyi gir";
+            this.btnEnterData.UseVisualStyleBackColor = false;
+            this.btnEnterData.Click += new System.EventHandler(this.btnEnterData_Click);
             // 
             // tbxInput
             // 
@@ -230,9 +248,11 @@
             // gbxAutoDataSettings
             // 
             this.gbxAutoDataSettings.BackColor = System.Drawing.Color.DarkGray;
+            this.gbxAutoDataSettings.Controls.Add(this.btnCreateData);
             this.gbxAutoDataSettings.Controls.Add(this.label5);
             this.gbxAutoDataSettings.Controls.Add(this.lblAutoDataCount);
             this.gbxAutoDataSettings.Controls.Add(this.tbrAutoDataCount);
+            this.gbxAutoDataSettings.Enabled = false;
             this.gbxAutoDataSettings.Location = new System.Drawing.Point(12, 781);
             this.gbxAutoDataSettings.Margin = new System.Windows.Forms.Padding(2);
             this.gbxAutoDataSettings.Name = "gbxAutoDataSettings";
@@ -242,12 +262,24 @@
             this.gbxAutoDataSettings.TabStop = false;
             this.gbxAutoDataSettings.Text = "Üretilecek Veri Ayarları";
             // 
+            // btnCreateData
+            // 
+            this.btnCreateData.BackColor = System.Drawing.Color.Tomato;
+            this.btnCreateData.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCreateData.Location = new System.Drawing.Point(26, 125);
+            this.btnCreateData.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCreateData.Name = "btnCreateData";
+            this.btnCreateData.Size = new System.Drawing.Size(152, 40);
+            this.btnCreateData.TabIndex = 8;
+            this.btnCreateData.Text = "Veriyi Oluştur";
+            this.btnCreateData.UseVisualStyleBackColor = false;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Tomato;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(56, 26);
+            this.label5.Location = new System.Drawing.Point(309, 26);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(420, 18);
@@ -280,7 +312,7 @@
             this.tbrAutoDataCount.Value = 2;
             this.tbrAutoDataCount.Scroll += new System.EventHandler(this.tbrAutoDataCount_Scroll);
             // 
-            // Form1
+            // Setting
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -290,7 +322,7 @@
             this.Controls.Add(this.gbxDataInput);
             this.Controls.Add(this.gbxDataEntrySettings);
             this.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Name = "Form1";
+            this.Name = "Setting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sıralama ve Arama";
             this.gbxDataEntrySettings.ResumeLayout(false);
@@ -316,7 +348,7 @@
         private RadioButton rbtnCharacteristic;
         private RadioButton rbtnDigital;
         private GroupBox gbxDataInput;
-        private Button btnInput;
+        private Button btnEnterData;
         private TextBox tbxInput;
         private Label label3;
         private Label label4;
@@ -328,5 +360,7 @@
         private TrackBar tbrAutoDataCount;
         private Label lblAutoDataCount;
         private Label label5;
+        private Button btnCreateData;
+        private Button btnConfirmDataEntrySettings;
     }
 }
