@@ -1,6 +1,6 @@
 ﻿namespace SortingAndSearching
 {
-    partial class Setting
+    partial class FormSetting
     {
         /// <summary>
         ///  Required designer variable.

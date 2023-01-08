@@ -1,10 +1,10 @@
 ﻿namespace SortingAndSearching
 {
-    public partial class Setting : Form
+    public partial class FormSetting : Form
     {
 
         Settings _settings;
-        public Setting()
+        public FormSetting()
         {
             InitializeComponent();
             _settings = new Settings();

@@ -1,8 +1,8 @@
 ﻿namespace PrimeNumber
 {
-    public partial class Form1 : Form
+    public partial class FormPrimeNumber : Form
     {
-        public Form1()
+        public FormPrimeNumber()
         {
             InitializeComponent();
             lblNumber.Text = "";

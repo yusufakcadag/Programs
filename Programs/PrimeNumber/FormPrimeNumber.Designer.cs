@@ -1,6 +1,6 @@
 ﻿namespace PrimeNumber
 {
-    partial class Form1
+    partial class FormPrimeNumber
     {
         /// <summary>
         ///  Required designer variable.
